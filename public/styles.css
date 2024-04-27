@@ -182,8 +182,7 @@ body {
 	display: none;
 }
 
-#inputOfPrefix, #inputOfAdmin,
-#inputOfBotName {
+#APPSATE, #LINK, {
 	padding: 13px;
 	width: 200px;
 	border: 1px solid #ccc;
@@ -193,13 +192,10 @@ body {
 	border-color: #ccc;
 	background-color: #fff;
 }
-#listOfCommands, #listOfCommandsEvent, #prefixOfCommands, #adminOfCommands {
+, #LIMIT, #DELAY, #SUBMIT {
 	border: none !important;
 }
 
-#listOfCommands:not(.modal), #listOfCommandsEvent:not(.modal), #prefixOfCommands:not(.modal),
-#adminOfCommands:not(.modal) {
-	box-shadow: none !important;
 }
 
 div {
